@@ -9,3 +9,29 @@
 .darkestBG {
 	background: #333;
 }
+
+.myPanel {
+	border: 1px solid dimgray;
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px #ccc;
+	margin: 3%;
+}
+
+.myPanel .heading {
+	background: darkseagreen;
+	border-radius: 2px 2px 0 0;
+	color: darkgreen;
+	padding: 10px 20px;
+}
+
+.myPanel .body {
+	padding: 10px 20px;
+}
+
+.myPanel .showOnHover {
+	display: none;
+}
+
+.myPanel:hover .showOnHover {
+	display: inline-block;
+}
